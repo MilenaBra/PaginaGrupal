@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- es necesario utilizar esta etiqueta para activar el media query necesario para responsive-->
+    <meta name="viewport" content="device-width"/>
+    
+    
+    <title>Angora editorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"  href="ccs/hoja de estilo angora.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+
+     <!-- vinculo fuente navegador -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <!-- vinculo fuente titulo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+
+<!-- vinculo fuente parrafo -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rakkas&display=swap" rel="stylesheet">
+    
+
+
+</head>
+
+<body>
+    <!-- caja del navegador
+    es importante a este código de bootstrap dejarle g-o a container fluid
+    y g-0 a row para que le quite el margen derecho que da por defecto-->
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 caja1">
+            <img class="logonav" src="imagenes/logo-angora.png" alt="">
+            <button id="boton-hamburguesa">
+                <span>&#9776;</span>
+              </button> 
+            <nav id="menu-hamburguesa">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="explora.html">Explora</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contactos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+          </div> 
+
+    <!-- caja dividida en dos imagen + texto -->
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 caja3">
+            <h1>Cultura Awá</h1>
+            <br>
+            <p class="awadescription">Los awá, también conocidos como kwaiker, son un pueblo indígena que habita en la región del Pacífico colombiano, en los departamentos de Nariño y Putumayo. Son un pueblo de tradición agrícola y cazadora-recolectora, que vive en armonía con la naturaleza.
+             <br>
+            La cultura awá se basa en una cosmovisión animista, en la que todos los seres vivos, tanto naturales como espirituales, tienen un alma. Los awá creen que la naturaleza es sagrada y que deben respetarla para mantener el equilibrio del mundo.
+            <br>
+            La estructura social awá es matrilineal, lo que significa que la herencia y la autoridad se transmiten por línea materna. Las mujeres juegan un papel importante en la sociedad awá, y son responsables de la agricultura, la artesanía y la educación de los niños.</p>
+        </div>
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 caja4">
+            <img src="imagenes/awa-antiguo.png" alt="">
+        </div>
+
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 separador">
+            </div>
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 cajagaleria">
+        <h1>Personajes</h1>
+        </div>
+        
+    
+    <!-- caja dividida en 4 para personajes -->
+    <div class="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-2 caja5 m-4">
+        <img src="imagenes/duende-personaje.png" alt="">
+        <div id="info">
+            <h2>Duende</h2>
+            <p class="description">
+                Un duende que no acepta el fracaso así mismo carece de empatía y no dejara a Nuisha en paz.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-2 caja6 m-4">
+        <div id="info">
+        <img src="imagenes/nuisha-personaje.png" alt="">
+            <h2>Nuisha</h2>
+            <p class="description">
+                Niña perteneciente de la tribu Awa de nombre Nuisha con una personalidad ingenua y complaciente.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-2 caja7 m-4">
+     <div id="info">
+        <img src="imagenes/astaron-personaje.png" alt="">
+        <h2>Astaron</h2>
+        <p class="description">
+            Dios perteneciente a la tribu Awa que busca proteger y así buscar venganza a aquel que quiere hacerle daño a los seres del bosque
+        </p>
+     </div>
+    </div>
+
+    <div class="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-2 caja8 m-4">
+        <img src="imagenes/armadillo-personaje.png" alt="">
+     <div id="info">
+        <h2>Armadillo</h2>
+        <p class="description">
+            Transporta a Nuisha de un mundo a otro, es bien visto ya que su naturaleza de sabiduría le permite cambiar a diferentes portales.
+        </p>
+    </div>
+</div>
+
+    <!-- cajas para merch -->
+    <section class="merchbackground">
+        <div class="col-12 col-xs-6 col-sm-6 col-md-12 col-lg-12 caja9">
+            <img class="merch" src="imagenes/merch-caja.jpg" class="testimoniosimagen" alt="">
+            <p class="testimoniosp">Este libro cuenta con un kit que incluye: unas hermosas memofichas con diseños basados en la cultura Awa y nuestro personaje principal el armadillo.</p>
+        </div>
+    
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 caja10">
+            <img class="merch" src="imagenes/merch-tula.jpg" class="testimoniosimagen" alt="">
+            <p class="testimoniosp">Se te obsequiará una tula diseño exclusivo para que puedas guardar tanto las memofichas, como nuestro tejido amigurumi de nuisha</p>
+        </div>
+    
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 caja11">
+            <img class="merch" src="imagenes/merch-personaje.jpg" class="testimoniosimagen" alt="">
+            <p class="testimoniosp">Siguiendo las tradiciones indigenas del tejido, se te obsequiará una muñeca a pequeña escala de nuestra protagonista Nuisha</p>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <div class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 caja12">
+        <br>
+        <img class="logonav" src="imagenes/logo-angora.png" alt="">
+    </div>
+        
+        <div class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 caja13">
+            <b>@copyright 2024. Angora Editorial</b>
+            <br><br>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/editorialangora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-instagram"><img src="imagenes/instagram-icono-32.png" alt=""></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61553887295887&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-facebook"><img src="imagenes/facebook-icono-32.png" alt=""></i>
+                </a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fangora37849" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-icono-tercera-red-social"><img src="imagenes/twitter-icono-32.png" alt=""></i>
+                </a>
+              </div>
+    
+        </div>
+
+    <script>
+        document.getElementById("boton-hamburguesa").addEventListener("click", function () {
+          var menu = document.getElementById("menu-hamburguesa");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        });
+      </script>
+
+</body>
+</html>
